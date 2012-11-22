@@ -1,0 +1,9 @@
+<html>
+    <h1>{{ title }}</h1>
+
+    <p>{{ request.GET }}</p>
+
+    {% for item in request.GET %}
+        {{ foorloop.counter }} . {{ item }}
+        {% endfor %}
+</html>
