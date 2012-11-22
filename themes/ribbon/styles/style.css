@@ -19,7 +19,7 @@ BODY {
 	content:counter(paging, decimal-leading-zero);
 	}
 .slide section {
-	padding:80px 120px 0;
+	padding:80px 80px 0;
 	width:784px;
 	height:688px;
 	background:#FFF;
@@ -37,7 +37,7 @@ BODY {
 
 /* Header */
 .slide header {
-	margin:0 0 58px;
+	margin:0 0 38px;
 	color:#666;
 	font:bold 40px/1.13 'PT Sans Narrow', sans-serif;
 	}
